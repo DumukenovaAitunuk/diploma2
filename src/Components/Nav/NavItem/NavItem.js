@@ -16,4 +16,3 @@ function NavItem(props) {
 }
 
 export default NavItem;
-    

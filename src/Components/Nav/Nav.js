@@ -1,17 +1,19 @@
-import "./Nav.css";
-
-
+import Logo from "../ui/logo";
+import "./nav.css"
+import NavItem from "./NavItem/NavItem";
 function Nav() {
-  return (
-    <nav className="Nav">
-      {/* <Logo /> */}
-      <ul>
-        {/* <NavItem url="/">Home</NavItem>
-        <NavItem url="/products">Products</NavItem>
-        <NavItem url="/contacts">Contacts</NavItem> */}
-      </ul>
-    </nav>
-  );
+    return ( 
+        <nav className="Nav">
+        <head><link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet"/></head>
+            <Logo/>
+            
+            <ul>
+                <NavItem url="/">Home</NavItem>
+                <NavItem url="/products">Products</NavItem>
+                <NavItem url="/contacts">Contacts</NavItem>
+            </ul>
+        </nav>
+     );
 }
 
 export default Nav;
