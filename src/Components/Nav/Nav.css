@@ -2,15 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(27, 56, 44);
-    color: azure;
+    background-color: rgba(213, 164, 42, 0.937);
+    color: rgb(255, 255, 255);
     padding: .1rem 1rem;
     font-size: 30px;  
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .Nav div {
     
-    font-family: 'Rubik Wet Paint', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .Nav ul {
     list-style: none;

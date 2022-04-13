@@ -7,12 +7,12 @@
     padding: 1rem;
     background-size: cover;
     color: white;
-    text-shadow: 0 0 20px rgba(255, 255, 255, .5);
-    text-align: aligt-leeft;
-    font-size: 3rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.683);
+    text-align: center;
+    font-size: 2rem;
     padding-top: 70px;
-    font-family: Arial, Helvetica, sans-serif   ;
-    color: rgb(81, 67, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(255, 255, 255);
     background-position: center;
 
 }
