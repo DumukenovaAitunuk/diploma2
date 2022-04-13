@@ -3,7 +3,7 @@ import headerImage from "../../assets/book.jpg";
 
 function Header() {
   const style = {
-    backgroundImage: url(${headerImage})
+    backgroundImage: `url(${headerImage})`
   };
 
   return (
