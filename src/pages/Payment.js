@@ -1,6 +1,7 @@
+
 function Payment() {
     return ( 
-        <main>
+        <main className="pages-main">
              <div className="container"> 
             <h1> Payment</h1>
             <p>

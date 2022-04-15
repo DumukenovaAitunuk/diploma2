@@ -16,3 +16,8 @@ code {
   max-width: 80%;
   margin: 0 auto;
 }
+.pages-main{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(255, 216, 74, 0.686);
+  color: white;
+}

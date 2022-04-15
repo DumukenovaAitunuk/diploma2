@@ -1,6 +1,7 @@
+
 function Home() {
     return ( 
-        <main>
+        <main className="pages-main">
         <div className="container"> 
             <h1>Home page</h1>
             <p>

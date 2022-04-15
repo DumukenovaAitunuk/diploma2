@@ -1,6 +1,8 @@
+
+
 function Products() {
     return ( 
-        <main>
+        <main className="pages-main">
              <div className="container"> 
             <h1>Our products </h1>
             <p>
