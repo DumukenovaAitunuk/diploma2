@@ -18,6 +18,8 @@ code {
 }
 .pages-main{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgba(255, 216, 74, 0.686);
-  color: white;
+  background-color: rgba(226, 149, 60, 0.275);
+ 
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
 }
