@@ -17,3 +17,10 @@ function Products() {
 }
 
 export default Products;
+
+// inside file prodact list
+//import
+
+
+
+//<ProductsList product={product}/>

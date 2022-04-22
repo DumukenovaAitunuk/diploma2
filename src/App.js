@@ -6,12 +6,14 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Payment from "./pages/Payment";
 import { Route,Routes } from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Header />
+     
+      
+      <Layout>
       <Routes> 
         <Route path="/"element={ <Home />}/>
         <Route path="/products"element={ <Products />}/>
@@ -19,6 +21,8 @@ function App() {
         <Route path="/payment"element={ <Payment />}/>
       
       </Routes>
+      </Layout>
+      
     
 
 
@@ -28,7 +32,6 @@ function App() {
       
       
       
-      <Footer />
     </div>
   );
 }
